@@ -1,0 +1,5 @@
+# receber uma frase e imorimir ela de forma invertida
+
+frase = input('Digite uma frase: ')
+invertida = ' '.join(palavra[::-1] for palavra in frase.split())
+print('A frase de forma invertida: {}'.format(invertida))
